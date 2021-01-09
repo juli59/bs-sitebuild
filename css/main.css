@@ -32,3 +32,6 @@ button {
 nav {
     font-family: "lato", Helvetica, Arial, sans-serif; 
 }
+.yellow {
+    background-color: rgb(119, 119, 23);
+}
