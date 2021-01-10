@@ -56,13 +56,27 @@ nav {
       border: 2px solid #ffffff;
       border-radius: 25px;
   }
-  .linear {
-    background: linear-gradient(#e66465, #9198e5);
-    background-image: url("img/bg-pattern.png");
-  background-repeat: repeat-y;
+  #upper-information {
+   /* background-image: url("/img/bg-pattern.png");  */ 
+   background-repeat: repeat; 
+  color: #ffffff;
+  background: linear-gradient(45deg, red, blue);
+  
   }
-  .bordera {
-    border: 2px solid rgb(0, 0, 0);
+  
+  #bordera {
+    border: 2px solid #ffffff;
     border-radius: 25px;
   
   }
+  #bordera:hover {
+      background-color:yellow;
+      transition: 0.3s;
+  } 
+  #startBootstrap:hover {
+    color: #ffffff;
+  }
+  #startbootstrap {
+      color: rgb(128, 128, 128);
+  }
+  
