@@ -1,16 +1,16 @@
 @font-face {
     font-family: "catamaran";
-    src: url(css/fonts/catamaran/static/Catamaran-Regular.ttf);
+    src: url(/css/fonts/catamaran/static/Catamaran-Regular.ttf);
     font-weight: 500;
 }
 @font-face {
     font-family: "lato";
-    src: url(css/fonts/lato/Lato-Regular.ttf);
+    src: url(/css/fonts/lato/Lato-Regular.ttf);
     font-weight: 500;
 }
 @font-face {
     font-family: "mulish";
-    src: url(css/fonts/mulis/Mulish-Italic-VariableFont_wght.ttf);
+    src: url(/css/fonts/mulish/Mulish-Italic-VariableFont_wght.ttf);
     font-weight: 500;
 }
 
@@ -39,7 +39,9 @@ nav {
     position: relative;
   text-align: center;
   color: black;
+  
 }
+
 .centered {
     position: absolute;
     top: 50%;
@@ -70,7 +72,7 @@ nav {
   
   }
   #bordera:hover {
-      background-color:yellow;
+      background-color: #fdcc52;
       transition: 0.3s;
   } 
   #startBootstrap:hover {
@@ -78,5 +80,41 @@ nav {
   }
   #startbootstrap {
       color: rgb(128, 128, 128);
+  }
+  #icon {
+      width: 10rem;
+  }
+  #twitter {
+    border-radius: 25px;
+   
+    border-radius: 25px;
+    background-color:  rgb(69, 189, 230);
+    color: #ffffff;
+    width: 2.9rem;
+    height: 2.9rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  #facebook {
+      
+      border-radius: 25px;
+  }
+  #google {
+    border-radius: 25px;
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 2.9rem;
+    height: 2.9rem;
+    text-align: center;
+    font-size: 2rem;
+
+  }
+  .containerWeLove {
+      background-color: #fdcc52;
+      opacity: 0.9;
+  }
+  .containerWeLove:hover {
+      background-color: #fdcc52;
+      
   }
   

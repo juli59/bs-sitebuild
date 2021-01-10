@@ -23,9 +23,9 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
 
-        <a class="nav-link ml-auto " href="#">Download</a>
-        <a class="nav-link ml-auto" href="#">Features</a>
-        <a class="nav-link ml-auto" href="#">Contact</a>
+        <a class="download nav-link ml-auto " href="#discover">Download</a>
+        <a class="nav-link ml-auto" href="#unlimited">Features</a>
+        <a class="nav-link ml-auto" href="#love">Contact</a>
 
       </div>
     </div>
@@ -58,62 +58,66 @@
     <section class="py-5">
       <div class="containerDiscover">
         <div class="row">
-          <div class="col-12 text-center">
-            <h1>Discover what all the <br>buzz is about!</h1>
+          <div class="col-12 text-center" style="border:0">
+            <h1 id="discover">Discover what all the <br>buzz is about!</h1>
             <h6>Our app is available on any mobile device! Download now to get started!</h6>
             <div class="row">
-              <img class="d-flex col-md-3 ml-auto" src="img/google-play-badge.svg" alt="google-play">
-              <img class="d-fex col-md-3 mr-auto image" src="img/app-store-badge.svg" alt="app store">
+              <div class="col-md-6 offset-md-3 text-center" style="border:0"></div>
+
+              <a href="googlePlay"><img class="d-flex" src="img/google-play-badge.svg" alt="google-play"></a>
+              <a href="appStore"><img class="d-flex" src="img/app-store-badge.svg" alt="app store"></a>
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
     <section class="py-5 bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-12 d-flex text-center">
-            <h1>Unlimited features, Unlimited fun</h1>
+          <div class="col-12 text-center">
+            <h1 id="unlimited">Unlimited features, Unlimited fun</h1>
           </div>
-          <div class="col-12 d-flex text-center">
-            <h4>Check out, what you can do with this app theme!</h4>
+          <div class="col-12 text-center">
+            <h6>Check out, what you can do with this app theme!</h6>
           </div>
+        </div>
+        <!-- <div class="col-lg-12 col-md-6 col-xl-3"> -->
+        <div class="row">
+          <img class=" col-md-3" src="img/phone.png" alt="phone">
+          <!-- </div> -->
           <!-- <div class="col-lg-12 col-md-6 col-xl-3"> -->
-          <div class="row">
-            <img class=" col-md-3" src="img/phone.png" alt="phone">
+          <!-- <div class="row"> -->
+          <div class="flex-wrap col-md-2 text-center">
+            <div class="flex-column">
+              <span id="icon"><i class="fas fa-mobile-alt"></i></span>
+              <h5>Device Mockups</h5>
+              <p>Ready to use HTML/CSS device mockups, no photoshop required!</p>
+            </div>
           </div>
-          <!-- <div class="col-lg-12 col-md-6 col-xl-3"> -->
-          <div class="row">
-            <div class="flex-wrap col-md-3 text-center">
-              <div class="flex-column flex-lg-row">
-                <span><i class="fas fa-mobile-alt"></i></span>
-                <h5>Device Mockups</h5>
-                <p>Ready to use HTML/CSS device mockups, no photoshop required!</p>
-              </div>
+          <div class="flex-wrap col-md-2 text-center">
+            <div class="flex-column">
+              <span><i class="fas fa-camera"></i></span>
+              <h5>Flexible use</h5>
+              <p>Put an image, video, animation or anything else in the screen!</p>
             </div>
-            <div class="flex-wrap col-md-3 text-center">
-              <div class="flex-column flex-lg-row">
-                <span><i class="fas fa-camera"></i></span>
-                <h5>Flexible use</h5>
-                <p>Put an image, video, animation or anything else in the screen!</p>
-              </div>
+          </div>
+          <div class="d-flex col-md-2 text-center">
+            <div class="flex-column">
+              <span><i class="fas fa-gift"></i></span>
+              <h5>Free to Use</h5>
+              <p>As always, this theme is free to download and use for any purpose!</p>
             </div>
-            <div class="d-flex col-md-3 text-center">
-              <div class="flex-column flex-lg-row">
-                <span><i class="fas fa-gift"></i></span>
-                <h5>Free to Use</h5>
-                <p>As always, this theme is free to download and use for any purpose!</p>
-              </div>
-            </div>
-            <div class="d-flex col-md-3 text-center">
-              <div class="flex-column flex-lg-row">
-                <span><i class="fas fa-unlock"></i></span>
-                <h5>Open Source</h5>
-                <p>Since this theme is mIT licensed, you can use it commercially!</p>
-              </div>
+          </div>
+          <div class="d-flex col-md-2 text-center">
+            <div class="flex-column">
+              <span><i class="fas fa-unlock"></i></span>
+              <h5>Open Source</h5>
+              <p>Since this theme is MIT licensed, you can use it commercially!</p>
             </div>
           </div>
         </div>
+      </div>
       </div>
 
       </div>
@@ -134,13 +138,31 @@
       </section>
   </main>
   <section class="py-5">
-    <div class="container">
+    <div class="containerWeLove">
       <div class="row text-center">
         <div class="col-lg-4 offset-lg-4 col-md-8 offset-lg-2 col-sm-8 offset-sm-2">
-          <h1 class="font-weight-normal">We <span class="fa fa-heart" style="color:red"></span> love friends!</h1>
+          <h1 id="love" class="font-weight-normal">We <span class="fa fa-heart" style="color:red"></span> friends!</h1>
         </div>
       </div>
-
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4 col-md-8 offset-lg-2 col-sm-8 offset-sm-2">
+          <nav class="nav justify-content-center">
+            <a href="" class="mr-2" data-toggle="tooltip" data-placement="top" title="Twitter">
+              <i id="twitter" class="fab fa-twitter fa-3x" aria-hidden="true"></i>
+              <span class=sr-only>Link a cég Twitter oldalára</span>
+            </a>
+            <a href="" class="mr-2" data-toggle="tooltip" data-placement="top" title="Facebook">
+              <i id="facebook" class="fab fa-facebook fa-3x" aria-hidden="true"></i>
+              <span class=sr-only>Link a cég Facebook oldalára</span>
+            </a>
+            <a href="" class="google" data-toggle="tooltip" data-placement="top" title="Google">
+              <i id="google" class="fab fa-google-plus-g fa-3x" aria-hidden="true"></i>
+              <span class=sr-only>Link a cég Google oldalára</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </div>
   </section>
   </main>
   <footer class="py-5 text-white text-center bg-dark">
@@ -151,30 +173,89 @@
           <h3 class="font-weight-normal"> Your website 2018. All rights reserved</h3>
         </div>
       </div>
+
+
+    </div>
+    <div class="container">
       <div class="row">
         <div class="col-md-6 offset-md-3 mr-auto text-center">
-          <nav class="nav justify-content-center">
-            <a href="" class="text-white mr-2" data-toggle="tooltip" data-placement="top" title="Facebook">
-              <i class="fab fa-facebook-square fa-3x" aria-hidden="true"></i>
-              <span class=sr-only>Link a cég Facebook oldalára</span>
-            </a>
-            <a href="" class="text-white mr-2" data-toggle="tooltip" data-placement="top" title="Twitter">
-              <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
-              <span class=sr-only>Link a cég Twitter oldalára</span>
-            </a>
-
-            <a href="" class="text-white" data-toggle="tooltip" data-placement="top" title="Linkedin">
-              <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
-              <span class=sr-only>Link a cég Linkedin oldalára</span>
-            </a>
-          </nav>
-
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+            data-target="#sendModal1">Privacy</button>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+            data-target="#sendModal2">Terms</button>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#sendModal3">FaQ</button>
         </div>
       </div>
     </div>
   </footer>
+  <div class="modal fade" id="sendModal1" tabindex="-1" role="dialog" aria-labelledby="sendModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Privacy</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Privacy">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Privacy Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius atque nulla ducimus asperiores, assumenda
+          voluptatum est repellat ipsam quibusdam ea doloremque ad, error molestiae. Vel error cupiditate nobis quos
+          commodi!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
 
-<script src="main.js"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="sendModal2" tabindex="-1" role="dialog" aria-labelledby="sendModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Privacy</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Privacy">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Terms Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius atque nulla ducimus asperiores, assumenda
+          voluptatum est repellat ipsam quibusdam ea doloremque ad, error molestiae. Vel error cupiditate nobis quos
+          commodi!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="sendModal3" tabindex="-1" role="dialog" aria-labelledby="sendModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Privacy</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Privacy">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          FaQ Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius atque nulla ducimus asperiores, assumenda
+          voluptatum est repellat ipsam quibusdam ea doloremque ad, error molestiae. Vel error cupiditate nobis quos
+          commodi!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
