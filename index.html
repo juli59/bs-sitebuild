@@ -57,17 +57,24 @@
 
     <section class="py-5">
       <div class="containerDiscover">
-        <div class="row">
+        <div class="row d-lg-flex">
           <div class="col-12 text-center" style="border:0">
             <h1 id="discover">Discover what all the <br>buzz is about!</h1>
             <h6>Our app is available on any mobile device! Download now to get started!</h6>
-            <div class="row">
-              <div class="col-md-6 offset-md-3 text-center" style="border:0"></div>
-
-              <a href="googlePlay"><img class="d-flex" src="img/google-play-badge.svg" alt="google-play"></a>
-              <a href="appStore"><img class="d-flex" src="img/app-store-badge.svg" alt="app store"></a>
-            </div>
           </div>
+          <div class="row"> 
+            <div class="col-12 col-lg-6">
+              <a href="https://play.google.com/store"><img class="ml-auto" src="img/google-play-badge.svg"
+                  alt="google-play"></a>
+            </div>
+            <div class="col-12 col-lg-6">
+              <a href="https://www.apple.com/hu/ios/app-store/"><img class="mr-auto" src="img/app-store-badge.svg"
+                  alt="app-store"></a>
+            </div>
+
+
+
+          <!-- </div> -->
         </div>
       </div>
       </div>
@@ -176,14 +183,19 @@
 
 
     </div>
+    
     <div class="container">
       <div class="row">
         <div class="col-md-6 offset-md-3 mr-auto text-center">
-          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
-            data-target="#sendModal1">Privacy</button>
-          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+          <a href="#sendmodal1" data-toggle="modal" data-target="#sendModal1">Privacy</a>
+          <a href="#sendmodal2" data-toggle="modal" data-target="#sendModal1">Terms</a>
+          <a href="#sendmodal3" data-toggle="modal" data-target="#sendModal1">FaQ</a>
+          <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" -->
+            <!-- data-target="#sendModal1">Privacy</button> -->
+          <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
             data-target="#sendModal2">Terms</button>
-          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#sendModal3">FaQ</button>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
+            data-target="#sendModal3">FaQ</button> -->
         </div>
       </div>
     </div>
@@ -199,7 +211,8 @@
           </button>
         </div>
         <div class="modal-body">
-          Privacy Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius atque nulla ducimus asperiores, assumenda
+          Privacy Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius atque nulla ducimus asperiores,
+          assumenda
           voluptatum est repellat ipsam quibusdam ea doloremque ad, error molestiae. Vel error cupiditate nobis quos
           commodi!
         </div>
@@ -249,6 +262,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+          
 
         </div>
       </div>
