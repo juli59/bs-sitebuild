@@ -110,7 +110,7 @@ nav {
 
   }
   .containerWeLove {
-      background-color: #fdcc52;
+      background-color: rgba(253, 205, 83, 0.9);
       opacity: 0.9;
   }
   .containerWeLove:hover {
